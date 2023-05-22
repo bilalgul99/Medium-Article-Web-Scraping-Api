@@ -1,3 +1,7 @@
+#https://colab.research.google.com/drive/1CEeS2rjK00jspuxPCpvZoEM3XQBe31PM?usp=sharing
+#for API search got to http://bilalgul.pythonanywhere.com/
+#to make API request for a json response http://bilalgul.pythonanywhere.com/search?keyword=<your_keywrord>
+#code found at https://github.com/bilalgul99/Medium-Article-Web-Scraping-Api
 import csv
 from flask import Flask, request, jsonify, render_template
 

@@ -101,6 +101,7 @@
     function displayResults(results) {
       const searchResults = document.getElementById('search-results');
       searchResults.innerHTML = '';
+      console.log(searchResults);
 
       results.forEach(result => {
         const resultItem = document.createElement('div');
